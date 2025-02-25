@@ -4,17 +4,13 @@ public class Radio {
     private int currentStation;
     private int minStation = 0;
     private int maxStation = 9;
-    private int currentVolume;
-    private int minVolume = 0;
-    private int maxVolume = 100;
+
 
     public Radio() {
         this.currentStation = currentStation;
         this.minStation = minStation;
         this.maxStation = maxStation;
-        this.currentVolume = currentVolume;
-        this.minVolume = minVolume;
-        this.maxVolume = maxVolume;
+
     }
 
 
@@ -48,30 +44,4 @@ public class Radio {
         }
     }
 
-    // Геттеры и сеттеры для текущей громкости
-    public int getCurrentVolume() {
-        return currentVolume;
-    }
-
-    public void setCurrentVolume(int currentVolume) {
-        if (currentVolume < minVolume || currentVolume > maxVolume) {
-            return;
-        }
-        this.currentVolume = currentVolume;
-    }
-
-    // Метод для увеличения громкости на один
-    public void increaseVolume() {
-        if (currentVolume < maxVolume) {
-            currentVolume++;
-        }
-    }
-
-
-    // Метод для уменьшения громкости на один
-    public void decreaseVolume() {
-        if (currentVolume > 0) {
-            currentVolume--;
-        }
-    }
 }
