@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class Radioman2Test {
+class RadioTest {
     Radio radio = new Radio ();
 
     @Test
@@ -67,7 +67,4 @@ class Radioman2Test {
         radio.previousStation();
         assertEquals(9, radio.getCurrentStation());
     }
-
-
-
 }

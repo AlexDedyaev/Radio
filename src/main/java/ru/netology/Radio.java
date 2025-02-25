@@ -5,14 +5,12 @@ public class Radio {
     private int minStation = 0;
     private int maxStation = 9;
 
-
     public Radio() {
         this.currentStation = currentStation;
         this.minStation = minStation;
         this.maxStation = maxStation;
 
     }
-
 
     // Геттеры и сеттеры для текущей станции
     public int getCurrentStation() {
@@ -43,5 +41,4 @@ public class Radio {
             setCurrentStation(currentStation - 1);
         }
     }
-
 }
