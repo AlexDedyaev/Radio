@@ -12,8 +12,7 @@ class RadiomanTest {
     public void shouldGetCurrentStation() {
         radio.setCurrentStation(0);
         radio.setCurrentStation(-1);
-        radio.setCurrentStation(10
-        );
+        radio.setCurrentStation(10);
         assertEquals(0, radio.getCurrentStation());
     }
 
