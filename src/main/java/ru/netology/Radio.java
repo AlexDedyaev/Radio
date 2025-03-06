@@ -25,7 +25,7 @@ public class Radio {
     }
 
     public void setCurrentVolume(int newCurrentVolume) {
-//        if (newCurrentVolume > 10) {
+//        if (newCurrentVolume > 100) {
 //            return;
 //        }
 //        if (newCurrentVolume < 0) {
